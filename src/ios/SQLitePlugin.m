@@ -13,6 +13,7 @@
 // NOTE: This is now broken by cordova-ios 4.0, see:
 // https://issues.apache.org/jira/browse/CB-9638
 // Solution is to use NSJSONSerialization instead.
+#define READ_BLOB_AS_BASE64 
 #ifdef READ_BLOB_AS_BASE64
 #import <Cordova/NSData+Base64.h>
 #endif
